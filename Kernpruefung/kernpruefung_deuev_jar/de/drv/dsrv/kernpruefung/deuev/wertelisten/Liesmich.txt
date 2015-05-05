@@ -1,0 +1,25 @@
+Anlage8_Staatsschluessel_EU.txt:
+
+MMEU = "J" ist nur zulaessig, wenn die Staatsangehoerigkeit eines Mitgliedslandes der Europaeischen Union oder eines Landes, fuer den das Abkommen über den Europaeischen Wirtschaftsraum gilt, angegeben ist (SASC = "124" - "129", "131", "134" - "137", "139", "141" - "143", "145", "148", "149", "151" - "155", "157", "161", "164", "165", "168" oder "181").
+Fehlernummer: DSME302
+
+
+============================================================
+
+interimsversicherungsnummer.txt
+
+Eine Interimsversicherungsnummer (ITVSNR) erkennt man an der Bereichsnummer. Die Bereichsnummer sind die ersten beiden Ziffern der VSNR.
+
+
+============================================================
+
+testVersicherungsnummer.txt:
+
+zu 1, Antwort von Frau Eckold: Test-Versicherungsnummern (DSME089): 12140421E115, 12140441E119, 39180607P581, 39180607S584, 65010166L519, 13010181R009,  3010481R002, 13160481R002, 13010581R003,  13130681R007, 12140461E114 oder 12140481E118)
+
+
+============================================================
+
+versicherungsnummer.txt
+
+Eine gueltige Versicherungsnummer (VSNR) erkennt man an der Bereichsnummer. Die Bereichsnummer sind die ersten beiden Ziffern der VSNR.

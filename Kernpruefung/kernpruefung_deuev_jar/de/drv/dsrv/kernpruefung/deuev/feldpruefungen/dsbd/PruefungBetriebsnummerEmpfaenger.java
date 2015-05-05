@@ -1,0 +1,32 @@
+package de.drv.dsrv.kernpruefung.deuev.feldpruefungen.dsbd;
+
+import de.drv.dsrv.kernpruefung.basis.feldpruefung.AbstractFeldPruefung;
+import de.drv.dsrv.kernpruefung.basis.model.Fehler;
+import de.drv.dsrv.kernpruefung.basis.model.Feld;
+import de.drv.dsrv.kernpruefung.basis.pruefungen.UngueltigeDatenException;
+import de.drv.dsrv.kernpruefung.deuev.model.fehler.FehlerNummerDSBD;
+import de.drv.dsrv.kernpruefung.deuev.model.feld.FeldNameDSBD;
+import de.drv.dsrv.kernpruefung.deuev.pruefungen.PruefungBetriebsnummer;
+
+/**
+ * Pruefung fuer das Feld Betriebsnummer Empfaenger aus dem Baustein DSBD.
+ */
+public class PruefungBetriebsnummerEmpfaenger extends AbstractFeldPruefung<FeldNameDSBD, FehlerNummerDSBD> {
+
+	/**
+	 * Konstruktor.
+	 * 
+	 * @param feld
+	 *            Das zu pruefende Feld.
+	 */
+	public PruefungBetriebsnummerEmpfaenger(final Feld<FeldNameDSBD> feld) {
+		super(feld);
+	}
+
+	@Override
+	public void initialisierePruefungen() throws UngueltigeDatenException {
+		final PruefungBetriebsnummer bd040 = new PruefungBetriebsnummer(getFeld());
+		addPruefung(bd040, new Fehler<FehlerNummerDSBD>(FehlerNummerDSBD.DSBD040));
+	}
+
+}
