@@ -1,26 +1,28 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
-    <metadata>
-        <id>Dsrv.Kernpruefung.Deuev</id>
-        <version>$version$</version>
-        <title>DEÜV-Kernpruefung der DSRV</title>
-        <authors>DSRV DRV DEÜV Kernpruefung DEUEV</authors>
-        <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
-        <requireLicenseAcceptance>false</requireLicenseAcceptance>
-        <description>Die DEÜV-Kernpruefung der Deutschen Rentenversicherung</description>
-        <dependencies>
-            <group targetFramework=".NETFramework0.0">
-                <dependency id="IKVM" version="8.0.5449.1" />
-            </group>
-            <group targetFramework="native0.0" />
-			<!-- <group targetFramework="MonoAndroid0.0" /> -->
-        </dependencies>
-    </metadata>
-    <files>
-        <file src="Dsrv.Kernpruefung.Deuev.Windows\Dsrv.Kernpruefung.Deuev.dll" target="lib\net40\" />
-        <!-- <file src="Dsrv.Kernpruefung.Deuev.Android\bin\Release\Dsrv.Kernpruefung.Deuev.dll" target="lib\MonoAndroid22\" /> -->
-        <file src="NuGet\_._" target="lib\native\" />
-        <file src="Dsrv.Kernpruefung.Deuev.Windows\NuGet\install.ps1" target="tools\native\" />
-        <file src="Dsrv.Kernpruefung.Deuev.Windows\NuGet\uninstall.ps1" target="tools\native\" />
-    </files>
+  <metadata>
+    <id>Dsrv.Kernpruefung.Deuev</id>
+    <version>$version$</version>
+    <title>DEÜV-Kernpruefung der DSRV</title>
+    <authors>DSRV DRV DEÜV Kernpruefung DEUEV</authors>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Die DEÜV-Kernpruefung der Deutschen Rentenversicherung</description>
+    <dependencies>
+      <group targetFramework="net40">
+        <dependency id="IKVM" version="8.0.5449.1" />
+      </group>
+      <group targetFramework="native" />
+      <!-- <group targetFramework="MonoAndroid44" /> -->
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="Dsrv.Kernpruefung.Deuev.Windows\Dsrv.Kernpruefung.Deuev.dll" target="lib\net40\" />
+    <!-- <file src="Dsrv.Kernpruefung.Deuev.Android\bin\Release\Dsrv.Kernpruefung.Deuev.dll" target="lib\MonoAndroid44\" /> -->
+    <file src="NuGet\_._" target="lib\native\" />
+    <file src="Dsrv.Kernpruefung.Deuev.Windows\NuGet\install.ps1" target="tools\native\" />
+    <file src="Dsrv.Kernpruefung.Deuev.Windows\NuGet\uninstall.ps1" target="tools\native\" />
+    <file src="README.md" />
+    <file src="LICENSE.md" />
+    <file src="LICENSE-APACHE-2.0.txt" />
+  </files>
 </package>
