@@ -15,7 +15,7 @@
     </dependencies>
   </metadata>
   <files>
-    <file src="Dsrv.Kernpruefung.Deuev-1.7.dll" target="lib\net40\" />
+    <file src="Dsrv.Kernpruefung.Deuev.dll" target="lib\net40\Dsrv.Kernpruefung.Deuev-1.7.dll" />
     <file src="..\_._" target="lib\native\" />
     <file src="install.ps1" target="tools\native\" />
     <file src="uninstall.ps1" target="tools\native\" />
