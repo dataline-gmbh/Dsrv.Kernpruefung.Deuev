@@ -1,5 +1,8 @@
 @echo off
+SET PACKAGE_VERSION=1.6
+SET FULL_PACKAGE_VERSION=1.6.1
+SET JAVA_PACKAGE_VERSION=1_6_1
 SET BUILD=%1
 SET BASE_PATH=%~dp0
 SET IKVM_PATH=%BASE_PATH%\ikvm-8.0.5449.1
-"%IKVM_PATH%\bin\ikvmc.exe" -version:1.6.1 -fileversion:1.6.1.%BUILD% -target:library "-out:%BASE_PATH%\NuGet\1.6\Dsrv.Kernpruefung.Deuev.dll" "%BASE_PATH%\Kernpruefung\kernpruefung_deuev_1_6_1_jar.jar" "%BASE_PATH%\Kernpruefung\kernpruefung_deuev_adapter_1_1_1.jar"
+"%IKVM_PATH%\bin\ikvmc.exe" -version:%FULL_PACKAGE_VERSION% -fileversion:%FULL_PACKAGE_VERSION%.%BUILD% -target:library "-out:%BASE_PATH%\NuGet\%PACKAGE_VERSION%\Dsrv.Kernpruefung.Deuev-%PACKAGE_VERSION%.dll" "%BASE_PATH%\Kernpruefung\kernpruefung_deuev_%JAVA_PACKAGE_VERSION%_jar.jar" "%BASE_PATH%\Kernpruefung\kernpruefung_deuev_adapter_1_1_1.jar"
