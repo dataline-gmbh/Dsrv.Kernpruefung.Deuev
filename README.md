@@ -16,15 +16,16 @@ Version | NuGet-Paket
 --------|--------------
 1.6.1   | [![Dsrv.Kernpruefung.Deuev-1.6](https://img.shields.io/nuget/v/Dsrv.Kernpruefung.Deuev-1.6.svg)](https://www.nuget.org/packages/Dsrv.Kernpruefung.Deuev-1.6/)
 1.7.0   | [![Dsrv.Kernpruefung.Deuev-1.7](https://img.shields.io/nuget/v/Dsrv.Kernpruefung.Deuev-1.7.svg)](https://www.nuget.org/packages/Dsrv.Kernpruefung.Deuev-1.7/)
+1.8.0   | [![Dsrv.Kernpruefung.Deuev-1.8](https://img.shields.io/nuget/v/Dsrv.Kernpruefung.Deuev-1.8.svg)](https://www.nuget.org/packages/Dsrv.Kernpruefung.Deuev-1.8/)
 
-Wenn man in einer Anwendung beide verwenden möchte, dann muss man das wie folgt machen:
+Wenn man in einer Anwendung 1.7 und 1.8 verwenden möchte, dann muss man das wie folgt machen:
 
 ```csharp
-extern alias deuev16;
 extern alias deuev17;
+extern alias deuev18;
 
-using adapter16 = deuev16::de.drv.dsrv.kernpruefung.adapter;
 using adapter17 = deuev17::de.drv.dsrv.kernpruefung.adapter;
+using adapter18 = deuev18::de.drv.dsrv.kernpruefung.adapter;
 
 namespace Test
 {
@@ -32,13 +33,13 @@ namespace Test
 	{
 		static void Main()
 		{
-			// Nutzung der Kernprüfung Version 1.6.1
-			var pruefung16 = new adapter16.impl.KernpruefungAufrufImpl();
+			// Nutzung der Kernprüfung Version 1.7.0
+			var pruefung17 = new adapter17.impl.KernpruefungAufrufImpl();
 			
 			//// ... Nutzung ...
 
-			// Nutzung der Kernprüfung Version 1.7.0
-			var pruefung17 = new adapter17.impl.KernpruefungAufrufImpl();
+			// Nutzung der Kernprüfung Version 1.8.0
+			var pruefung18 = new adapter18.impl.KernpruefungAufrufImpl();
 			
 			//// ... Nutzung ...
 		}
