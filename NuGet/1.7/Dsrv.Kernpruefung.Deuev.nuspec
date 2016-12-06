@@ -17,7 +17,7 @@
   <files>
     <file src="Dsrv.Kernpruefung.Deuev-1.7.dll" target="lib\net40\" />
     <file src="..\_._" target="lib\native\" />
-	<file src="Dsrv.Kernpruefung.Deuev.targets" target="build\native\" />
+	<file src="Dsrv.Kernpruefung.Deuev.targets" target="build\native\Dsrv.Kernpruefung.Deuev-1.7.targets" />
     <file src="..\..\README.md" />
     <file src="..\..\LICENSE.md" />
     <file src="..\..\LICENSE-APACHE-2.0.txt" />
