@@ -49,3 +49,16 @@ namespace Test
 	}
 }
 ```
+
+Zusätzlich muss, wenn das neue CSPROJ-Format verwendet wird, dieser Block hinzugefügt werden, der die Aliases den entsprechenden Assemblies zuordnet:
+
+    <Target Name="ChangeAliasesOfStrongNameAssemblies" BeforeTargets="FindReferenceAssembliesForReferences;ResolveReferences">
+      <ItemGroup>
+        <ReferencePath Condition="'%(FileName)' == 'Dsrv.Kernpruefung.Deuev-1.7'">
+          <Aliases>deuev17</Aliases>
+        </ReferencePath>
+        <ReferencePath Condition="'%(FileName)' == 'Dsrv.Kernpruefung.Deuev-1.8'">
+          <Aliases>deuev18</Aliases>
+        </ReferencePath>
+      </ItemGroup>
+    </Target>
