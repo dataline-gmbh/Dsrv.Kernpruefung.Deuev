@@ -1,4 +1,4 @@
-# DEÜV-Kernprüfung der Deutschen Rentenversicherung (DRV)
+# DEÃœV-KernprÃ¼fung der Deutschen Rentenversicherung (DRV)
 
 [![Build-Status](https://img.shields.io/teamcity/https/build.service-dataline.de:8081/s/ThirdPartyLibraries_DeVKernprFungJava.svg?label=TeamCity)](https://build.service-dataline.de:8081/viewType.html?buildTypeId=ThirdPartyLibraries_DeVKernprFungJava&guest=1)
 
@@ -9,7 +9,7 @@ gefunden und heruntergeladen werden.
 
 # Nutzung
 
-Die Packages werden genau so verwendet wie in Java. Es existieren unterschiedliche NuGet-Pakete für die
+Die Packages werden genau so verwendet wie in Java. Es existieren unterschiedliche NuGet-Pakete fÃ¼r die
 unterschiedlichen Versionen:
 
 Version | NuGet-Paket
@@ -21,7 +21,7 @@ Version | NuGet-Paket
 1.10.0  | [![Dsrv.Kernpruefung.Deuev-1.10](https://img.shields.io/nuget/v/Dsrv.Kernpruefung.Deuev-1.10.svg)](https://www.nuget.org/packages/Dsrv.Kernpruefung.Deuev-1.10/)
 1.11.1  | [![Dsrv.Kernpruefung.Deuev-1.11](https://img.shields.io/nuget/v/Dsrv.Kernpruefung.Deuev-1.11.svg)](https://www.nuget.org/packages/Dsrv.Kernpruefung.Deuev-1.11/)
 
-Wenn man in einer Anwendung 1.7 und 1.8 verwenden möchte, dann muss man das wie folgt machen:
+Wenn man in einer Anwendung 1.7 und 1.8 verwenden mÃ¶chte, dann muss man das wie folgt machen:
 
 ```csharp
 extern alias deuev17;
@@ -36,12 +36,12 @@ namespace Test
 	{
 		static void Main()
 		{
-			// Nutzung der Kernprüfung Version 1.7.0
+			// Nutzung der KernprÃ¼fung Version 1.7.0
 			var pruefung17 = new adapter17.impl.KernpruefungAufrufImpl();
 			
 			//// ... Nutzung ...
 
-			// Nutzung der Kernprüfung Version 1.8.0
+			// Nutzung der KernprÃ¼fung Version 1.8.0
 			var pruefung18 = new adapter18.impl.KernpruefungAufrufImpl();
 			
 			//// ... Nutzung ...
