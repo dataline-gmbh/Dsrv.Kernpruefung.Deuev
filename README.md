@@ -17,6 +17,9 @@ Version | NuGet-Paket
 1.6.1   | [![Dsrv.Kernpruefung.Deuev-1.6](https://img.shields.io/nuget/v/Dsrv.Kernpruefung.Deuev-1.6.svg)](https://www.nuget.org/packages/Dsrv.Kernpruefung.Deuev-1.6/)
 1.7.0   | [![Dsrv.Kernpruefung.Deuev-1.7](https://img.shields.io/nuget/v/Dsrv.Kernpruefung.Deuev-1.7.svg)](https://www.nuget.org/packages/Dsrv.Kernpruefung.Deuev-1.7/)
 1.8.0   | [![Dsrv.Kernpruefung.Deuev-1.8](https://img.shields.io/nuget/v/Dsrv.Kernpruefung.Deuev-1.8.svg)](https://www.nuget.org/packages/Dsrv.Kernpruefung.Deuev-1.8/)
+1.9.0   | [![Dsrv.Kernpruefung.Deuev-1.9](https://img.shields.io/nuget/v/Dsrv.Kernpruefung.Deuev-1.9.svg)](https://www.nuget.org/packages/Dsrv.Kernpruefung.Deuev-1.9/)
+1.10.0  | [![Dsrv.Kernpruefung.Deuev-1.10](https://img.shields.io/nuget/v/Dsrv.Kernpruefung.Deuev-1.10.svg)](https://www.nuget.org/packages/Dsrv.Kernpruefung.Deuev-1.10/)
+1.11.1  | [![Dsrv.Kernpruefung.Deuev-1.11](https://img.shields.io/nuget/v/Dsrv.Kernpruefung.Deuev-1.11.svg)](https://www.nuget.org/packages/Dsrv.Kernpruefung.Deuev-1.11/)
 
 Wenn man in einer Anwendung 1.7 und 1.8 verwenden möchte, dann muss man das wie folgt machen:
 
