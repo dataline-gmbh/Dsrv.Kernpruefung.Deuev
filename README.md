@@ -1,3 +1,11 @@
+# Dieses Projekt wird nicht mehr unterstützt.
+
+Mit dem 01.01.2019 wurde die bisherige DEÜV-Kernprüfung eingestellt und durch eine [Neuentwicklung der DSRV](https://www.dsrv.info/de/Navigation/20_Unsere_Verfahren/01_Nationaler_Datenaustausch/09_Kernpr%C3%BCfung/Kernpr%C3%BCfung_node.html) ersetzt, die mit diesem Projekt nicht kompatibel ist.
+
+Dieses Projekt wird aus diesem Grund nicht mehr gepflegt, und es wird keine weiteren Updates oder neuen Pakete geben.
+
+----
+
 # DEÜV-Kernprüfung der Deutschen Rentenversicherung (DRV)
 
 [![Build-Status](https://img.shields.io/teamcity/https/build.service-dataline.de:8081/s/ThirdPartyLibraries_DeVKernprFungJava.svg?label=TeamCity)](https://build.service-dataline.de:8081/viewType.html?buildTypeId=ThirdPartyLibraries_DeVKernprFungJava&guest=1)
